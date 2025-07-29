@@ -38,3 +38,15 @@ This is a basic password manager built with Python using the `cryptography` libr
    ```bash
    python password_manager.py
    ```
+
+## ✍️ Usage
+When prompted, type:
+- add → to add a new account and password
+- view → to view saved account passwords
+- q → to quit the program
+
+## 🔒 Note
+- Do not delete key.key or you will lose access to all encrypted passwords.
+- This is a basic local project and not suitable for production use without further security measures.
+
+
