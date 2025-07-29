@@ -26,4 +26,15 @@ This is a basic password manager built with Python using the `cryptography` libr
    ```bash
    pip install cryptography
    ```
-2. 
+2. **Generate your key (only once)**
+   Uncomment and run the following function once to generate your encryption key:
+   ```python
+   def write_key():
+    key = Fernet.generate_key()
+    with open ("key.key", "wb") as key_file:
+        key_file.write(key)
+   ```
+3. **Run the main script**
+   ```bash
+   python password_manager.py
+   ```
